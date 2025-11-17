@@ -1,0 +1,13 @@
+css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Small custom utilities */
+html, body, #root { height: 100%; }
+.container{ max-width: 1100px; }
+
+
+/* Placeholder styles for images when not provided */
+img[alt*="placeholder"]{ background: linear-gradient(135deg, #e2e8f0, #f8fafc); }
